@@ -1,0 +1,10 @@
+numpy
+pandas
+SimpleITK
+opencv-python
+Pillow
+scipy
+tqdm
+matplotlib
+torch
+totalsegmentator
