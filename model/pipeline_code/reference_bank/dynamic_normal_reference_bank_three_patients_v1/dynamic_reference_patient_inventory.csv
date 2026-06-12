@@ -1,0 +1,4 @@
+patient_alias,role,patient_id,volume_id,ct_shape_z,n_valid_slices,n_low_quality,lung_z_min,lung_z_max,png_dir,stage2_holdout_flag
+normal_patient_1,normal_ref_1,subset1_1.3.6.1.4.1.14519.5.2.1.6279.6001.100684836163890911914061745866,subset1_1.3.6.1.4.1.14519.5.2.1.6279.6001.100684836163890911914061745866__179f88da02,253,251,15,0,250,normal_patient_1/slices_png,False
+normal_patient_2,normal_ref_3,subset9_1.3.6.1.4.1.14519.5.2.1.6279.6001.109882169963817627559804568094,subset9_1.3.6.1.4.1.14519.5.2.1.6279.6001.109882169963817627559804568094__b0c943be3c,256,255,17,0,254,normal_patient_2/slices_png,False
+normal_patient_3,normal_ref_2,subset2_1.3.6.1.4.1.14519.5.2.1.6279.6001.311236942972970815890902714604,subset2_1.3.6.1.4.1.14519.5.2.1.6279.6001.311236942972970815890902714604__5917898e8b,276,275,17,0,274,normal_patient_3/slices_png,False

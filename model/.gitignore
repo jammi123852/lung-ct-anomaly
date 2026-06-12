@@ -1,0 +1,36 @@
+# ===== 비밀/자격증명 (절대 커밋 금지) =====
+b2_secrets.json
+pipeline_code/b2_secrets.json
+**/b2_secrets.json
+.env
+.env.*
+*.pem
+*.key
+
+# 평문 키가 남아있는 구버전/백업 (커밋 금지)
+pipeline_code/main_backup.py
+pipeline_code/models/old/
+lunar_backend/
+_archive_originals/
+acrhive/
+_backup_fix_*/
+_master_final_*/
+
+# ===== 대용량 런타임 (Google Drive 별도 배포) =====
+lunar_env/
+lunar_env.zip
+*.zip
+pipeline_code/totalseg_data/
+pipeline_code/cache/
+pipeline_code/logs/
+
+# ===== 빌드/캐시 =====
+lunar_web/node_modules/
+lunar_web/.next/
+lunar_web/out/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.log

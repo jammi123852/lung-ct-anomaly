@@ -1,0 +1,13 @@
+{
+  "raw_ct_copied_to_output": false,
+  "model_weights_written": false,
+  "feature_files_written": false,
+  "stage2_holdout_accessed": false,
+  "lesion_or_msd_candidate_included": false,
+  "model_forward": false,
+  "feature_extraction": false,
+  "score_recompute": false,
+  "training": false,
+  "ct_load": "read-only mmap (slice PNG + lung bbox/position metadata only)",
+  "patients_all_normal_holdout_false": true
+}

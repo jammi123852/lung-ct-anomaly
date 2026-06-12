@@ -1,0 +1,59 @@
+{
+  "out_root": "/home/jinhy/project/lung-ct-anomaly/outputs/position-aware-padim-v1/reports/dynamic_normal_reference_bank_three_patients_v1",
+  "window": {
+    "WL": -600,
+    "WW": 1500
+  },
+  "resolution": "512x512",
+  "stretch": false,
+  "n_patients": 3,
+  "n_patients_with_slices": 3,
+  "total_valid_slice_png": 781,
+  "per_patient": [
+    {
+      "patient_alias": "normal_patient_1",
+      "role": "normal_ref_1",
+      "patient_id": "subset1_1.3.6.1.4.1.14519.5.2.1.6279.6001.100684836163890911914061745866",
+      "volume_id": "subset1_1.3.6.1.4.1.14519.5.2.1.6279.6001.100684836163890911914061745866__179f88da02",
+      "ct_shape_z": 253,
+      "n_valid_slices": 251,
+      "n_low_quality": 15,
+      "lung_z_min": 0,
+      "lung_z_max": 250,
+      "png_dir": "normal_patient_1/slices_png",
+      "stage2_holdout_flag": false
+    },
+    {
+      "patient_alias": "normal_patient_2",
+      "role": "normal_ref_3",
+      "patient_id": "subset9_1.3.6.1.4.1.14519.5.2.1.6279.6001.109882169963817627559804568094",
+      "volume_id": "subset9_1.3.6.1.4.1.14519.5.2.1.6279.6001.109882169963817627559804568094__b0c943be3c",
+      "ct_shape_z": 256,
+      "n_valid_slices": 255,
+      "n_low_quality": 17,
+      "lung_z_min": 0,
+      "lung_z_max": 254,
+      "png_dir": "normal_patient_2/slices_png",
+      "stage2_holdout_flag": false
+    },
+    {
+      "patient_alias": "normal_patient_3",
+      "role": "normal_ref_2",
+      "patient_id": "subset2_1.3.6.1.4.1.14519.5.2.1.6279.6001.311236942972970815890902714604",
+      "volume_id": "subset2_1.3.6.1.4.1.14519.5.2.1.6279.6001.311236942972970815890902714604__5917898e8b",
+      "ct_shape_z": 276,
+      "n_valid_slices": 275,
+      "n_low_quality": 17,
+      "lung_z_min": 0,
+      "lung_z_max": 274,
+      "png_dir": "normal_patient_3/slices_png",
+      "stage2_holdout_flag": false
+    }
+  ],
+  "ct_load": "read-only mmap",
+  "model_forward": false,
+  "feature_extraction": false,
+  "score_recompute": false,
+  "training": false,
+  "raw_ct_copied_to_output": false
+}

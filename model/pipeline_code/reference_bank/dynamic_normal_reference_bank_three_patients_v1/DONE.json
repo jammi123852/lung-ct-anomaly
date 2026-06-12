@@ -1,0 +1,9 @@
+{
+  "conditions_ok": true,
+  "n_patients": 3,
+  "n_patients_with_slices": 3,
+  "total_valid_slice_png_index_rows": 781,
+  "total_png_on_disk": 781,
+  "png_eq_index": true,
+  "errors": 0
+}
