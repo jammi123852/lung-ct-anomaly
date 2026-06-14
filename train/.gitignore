@@ -1,0 +1,24 @@
+# 데이터/결과/모델 가중치 — repo에 절대 올리지 않음
+*.npy
+*.npz
+*.pth
+*.pt
+*.png
+*.jpg
+*.jpeg
+*.nii
+*.nii.gz
+*.dcm
+*.h5
+*.pkl
+*.parquet
+
+# CSV는 MANIFEST.csv만 허용, 나머지(score/metrics 등) 제외
+*.csv
+!MANIFEST.csv
+
+# 캐시/로그
+__pycache__/
+*.pyc
+*.log
+.ipynb_checkpoints/
